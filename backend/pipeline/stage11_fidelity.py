@@ -6,10 +6,9 @@ def run_stage11_fidelity(project: Project) -> Project:
     sot = project.source_of_truth
     if not sot:
         raise ValueError("Source of Truth missing before Stage 11")
-f"[SCENE {idx + 1}] ID: {s.id} | EventID: {s.event_id}\n"
+
     fidelity_issues: List[FidelityIssue] = []
 
-    # 1. Code Check: Verify 1-to-1 event mapping
     event_scene_count: Dict[str, int] = {}
     for scene in project.scenes:
         event_scene_count[scene.event_id] = event_scene_count.get(scene.event_id, 0) + 1
@@ -35,14 +34,13 @@ f"[SCENE {idx + 1}] ID: {s.id} | EventID: {s.event_id}\n"
                 )
             )
 
-    # 2. LLM-as-Judge Check on Scenes vs Ground Truth
     scenes_summary = "\n\n".join(
         [
             f"[SCENE {idx + 1}] ID: {s.id} | EventID: {s.event_id}\n"
             f"Title: {s.scene_title}\n"
             f"Action: {s.what_happens}\n"
             f"Narration: {s.narration}\n"
-            f"Dialogue: {' | '.join([d.speaker + ': \"' + d.text + '\"' for d in s.dialogue]) or 'None'}\n"
+            f"Dialogue: {' | '.join([d.speaker + ': ' + d.text for d in s.dialogue]) or 'None'}\n"
             f"Image Prompt: {s.image_prompt}"
             for idx, s in enumerate(project.scenes)
         ]
@@ -52,6 +50,8 @@ f"[SCENE {idx + 1}] ID: {s.id} | EventID: {s.event_id}\n"
         [f"[EVENT {e.id}] ({e.emotion}, Loc: {e.location_id}): {e.description}" for e in sot.events]
     )
 
+    facts_summary = "\n".join([f"- {f}" for f in sot.facts])
+
     prompt = f"""You are a strict Screenplay Fidelity Judge.
 Compare the generated scenes against the locked Ground Truth Source of Truth.
 Identify any hallucinations, altered plot outcomes, invented facts, or character relationship contradictions.
@@ -60,7 +60,7 @@ LOCKED GROUND TRUTH EVENTS:
 {ground_truth_summary}
 
 LOCKED ATOMIC FACTS:
-{chr(10).join([f"- {f}" for f in sot.facts])}
+{facts_summary}
 
 GENERATED SCENES:
 {scenes_summary}

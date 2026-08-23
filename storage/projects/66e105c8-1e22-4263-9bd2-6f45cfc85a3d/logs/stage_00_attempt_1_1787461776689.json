@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-08-23T05:09:33.535Z",
+  "stage": 0,
+  "stage_name": "Ground Truth Extraction (Section 1/1)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 3154,
+  "raw_payload": {
+    "characters": [
+      {
+        "id": "c1",
+        "name": "હું",
+        "age": "unknown",
+        "gender": "unknown",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "sibling of c2"
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "મારો ભાઈ",
+        "age": "unknown",
+        "gender": "male",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "sibling of c1"
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "મેક્સ",
+        "age": "unknown",
+        "gender": "animal",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "pet of c1 and c2"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "id": "l1",
+        "name": "બગીચો",
+        "description": "એક બગીચો જ્યાં નરમ હવા અને હરીયાળી છે"
+      },
+      "",
+      {
+        "id": "l2",
+        "name": "ઘર",
+        "description": "નરમ અને સુરક્ષિત ઘર જ્યાં પાણી અને ખોરાક ઉપલબ્ધ છે"
+      }
+    ],
+    "events": [
+      {
+        "id": "sec_1_evt_1",
+        "order_index": 1,
+        "description": "હું અને મારો ભાઈ બગીચામાં ફરવા ગયા હતા",
+        "characters_involved": [
+          "c1",
+          "c2"
+        ],
+        "location_id": "l1",
+        "time_of_day": "afternoon",
+        "emotion": "joyful"
+      },
+      {
+        "id": "sec_1_evt_2",
+        "order_index": 2,
+        "description": "ત્યાં એક નાનું કાળું ગલુડિયું મળ્યું",
+        "characters_involved": [
+          "c1",
+          "c2"
+        ],
+        "location_id": "l1",
+        "time_of_day": "afternoon",
+        "emotion": "surprised"
+      },
+      {
+        "id": "sec_1_evt_3",
+        "order_index": 3,
+        "description": "અમે તેને ઘરે લાવ્યા, પાણી પીવડાવ્યું, તેનું નામ મેક્સ રાખ્યું અને હવે મેક્સ મોટો અને વફાદાર કૂતરો બની ગયો છે",
+        "characters_involved": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "location_id": "l2",
+        "time_of_day": "afternoon",
+        "emotion": "content"
+      }
+    ],
+    "dialogue_lines": [],
+    "facts": [
+      "The narrator and his brother went for a walk in a garden.",
+      "They found a small black puppy in the garden.",
+      "They brought the puppy home and gave it water.",
+      "They named the puppy Max.",
+      "Max later became a big and loyal dog."
+    ],
+    "ambiguities": [
+      "The narrator’s gender, age, and personal name are not specified.",
+      "The brother’s age is not specified."
+    ]
+  }
+}

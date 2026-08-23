@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-22T18:09:17.657Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 1/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 10611,
+  "raw_payload": {
+    "cinematic_image_prompt": "Photorealistic 8K cinematic still, 35mm anamorphic lens, night on the observation deck of deep‑space research station Kepler‑9, floor‑to‑ceiling viewport framing a swirling violet nebula of the Cygnus sector, soft volumetric lighting from the nebula spilling into the deck, subtle ambient glow from humming consoles, Elena Vance standing alone, silhouette illuminated by nebula light, determined expression, triumphant mood, high‑contrast chiaroscuro, slight atmospheric haze, IMAX film texture.",
+    "cinematic_video_prompt": "Cinematic 8K video, slow dolly‑in from the humming consoles across the observation deck toward the floor‑to‑ceiling viewport, low‑angle tilt up to reveal the pulsating violet nebula, tracking Elena Vance as she stands alone, she inhales sharply, eyes locked on the swirling colors, subtle breath mist, nebula surface ripples, faint dust particles drift in the deck’s soft light, ambient hum visualized as low‑frequency light vibration, triumphant tone, 35mm anamorphic lens, volumetric lighting, slight camera shake to convey the station’s hum"
+  }
+}

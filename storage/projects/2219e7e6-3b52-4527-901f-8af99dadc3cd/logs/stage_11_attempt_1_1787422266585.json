@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-22T18:10:37.737Z",
+  "stage": 11,
+  "stage_name": "Fidelity & Hallucination Judge",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 28848,
+  "raw_payload": {
+    "has_issues": true,
+    "issues": [
+      {
+        "scene_id": "scene_03",
+        "event_id": "event_03",
+        "issue_type": "unsupported_fact",
+        "description": "The scene labels Elena Vance as \"future\" when the source material never mentions a future version; this adds an unsupported character variant.",
+        "severity": "medium"
+      },
+      {
+        "scene_id": "scene_06",
+        "event_id": "event_06",
+        "issue_type": "altered_event",
+        "description": "The source specifies a holographic projection of an older Elena; the scene depicts a younger Elena hologram with the older Elena's voice, contradicting the canonical description.",
+        "severity": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-23T05:10:30.875Z",
+  "stage": 2,
+  "stage_name": "Section Tone Extraction (1/1)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "status": "success",
+  "duration_ms": 1037,
+  "raw_payload": {
+    "tone": "peaceful",
+    "pacing": "medium",
+    "emotional_arc": "From a simple discovery to nurturing, culminating in the growth of a loyal companion.",
+    "key_themes": [
+      "companionship",
+      "nurturing",
+      "growth"
+    ]
+  }
+}

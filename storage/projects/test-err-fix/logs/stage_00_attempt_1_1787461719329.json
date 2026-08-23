@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-08-23T05:08:35.514Z",
+  "stage": 0,
+  "stage_name": "Ground Truth Extraction (Section 1/1)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 3814,
+  "raw_payload": {
+    "characters": [
+      {
+        "id": "char_1",
+        "name": "હું",
+        "age": "",
+        "gender": "unknown",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "sibling of char_2"
+        ]
+      },
+      {
+        "id": "char_2",
+        "name": "મારો ભાઈ",
+        "age": "",
+        "gender": "male",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "brother of char_1",
+          "owner of char_3"
+        ]
+      },
+      {
+        "id": "char_3",
+        "name": "મેક્સ",
+        "age": "",
+        "gender": "animal",
+        "appearance": "small black puppy, later big dog",
+        "clothing": "",
+        "relationships": [
+          "pet of char_1",
+          "pet of char_2"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "id": "loc_1",
+        "name": "બગીચો",
+        "description": "A garden with plants and open space, natural surroundings."
+      },
+      {
+        "id": "loc_2",
+        "name": "ઘર",
+        "description": "The narrator's home where the puppy was cared for, indoor setting."
+      }
+    ],
+    "events": [
+      {
+        "id": "sec_1_evt_1",
+        "order_index": 1,
+        "description": "The narrator and his brother went to a garden and found a small black puppy that was scared.",
+        "characters_involved": [
+          "char_1",
+          "char_2",
+          "char_3"
+        ],
+        "location_id": "loc_1",
+        "time_of_day": null,
+        "emotion": "concerned"
+      },
+      {
+        "id": "sec_1_evt_2",
+        "order_index": 2,
+        "description": "They brought the puppy home, gave it water, named it Max, and later Max grew into a big loyal dog.",
+        "characters_involved": [
+          "char_1",
+          "char_2",
+          "char_3"
+        ],
+        "location_id": "loc_2",
+        "time_of_day": null,
+        "emotion": "caring"
+      }
+    ],
+    "dialogue_lines": [],
+    "facts": [
+      "The narrator and his brother went to a garden.",
+      "They found a small black puppy in the garden.",
+      "The puppy was scared.",
+      "They brought the puppy home.",
+      "They gave the puppy water.",
+      "They named the puppy Max.",
+      "Max later became a big and loyal dog."
+    ],
+    "ambiguities": []
+  }
+}

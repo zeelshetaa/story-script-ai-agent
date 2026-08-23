@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:58.782Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 3/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "status": "success",
+  "duration_ms": 2439,
+  "raw_payload": {
+    "cinematic_image_prompt": "A photorealistic 8K IMAX film texture image of a cozy living room in the afternoon. The scene shows a standard human (હું) and a standard human (મારો ભાઈ) carrying a small puppy into the room. A bowl of fresh water sits on the floor. The brothers gently pat the puppy's head while whispering the name 'Max'. The puppy eagerly drinks, then curls up on a soft rug. Warm golden hour sunlight streams through a window, casting volumetric light and subtle shadows, highlighting the tender moment. The composition uses a 35mm lens with shallow depth of field, warm color palette, and cinematic grain.",
+    "cinematic_video_prompt": "A slow dolly-in from the doorway into the living room, tracking the standard human (હું) and standard human (મારો ભાઈ) as they carry the puppy. The camera follows their movement, capturing the brothers patting the puppy's head and whispering 'Max'. The puppy drinks eagerly, then curls up on the rug. The shot includes a low-angle tilt to emphasize the warmth of the sunlight streaming through the window, with subtle dust motes drifting in the golden light. The camera then pulls back to a wide shot, showing the entire cozy space, while the brothers and puppy remain in frame. The motion is smooth, with slight environmental motion such as gentle breeze moving curtains and faint dust particles."
+  }
+}

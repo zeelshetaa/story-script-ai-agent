@@ -1,0 +1,25 @@
+{
+  "status": {
+    "project_id": "959a4e5b-2f93-4497-ac7a-e091c7d28af4",
+    "status": "pending",
+    "stage_completed": -1,
+    "stage_running": null,
+    "requested_duration_seconds": 120,
+    "target_language": "gu",
+    "error_message": null,
+    "progress_percent": 0
+  },
+  "raw_story": "હું અને મારો ભાઈ બગીચામાં ફરવા ગયા હતા. ત્યાં એક નાનું કાળું ગલુડિયું મળ્યું. અમે તેને ઘરે લાવ્યા, પાણી પીવડાવ્યું અને તેનું નામ મેક્સ રાખ્યું. હવે મેક્સ મોટો અને વફાદાર કૂતરો બની ગયો છે.",
+  "sections": [],
+  "source_of_truth": null,
+  "story_bible": null,
+  "characters": [],
+  "locations": [],
+  "scenes": [],
+  "clarifications": [],
+  "fidelity_issues": [],
+  "stage_outputs": {},
+  "logs": [],
+  "created_at": "2026-08-23T05:09:25.555Z",
+  "updated_at": "2026-08-23T05:09:25.555Z"
+}

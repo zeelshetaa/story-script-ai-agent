@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:01:59.540Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 7/8)",
+  "attempt": 2,
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "status": "success",
+  "duration_ms": 1643,
+  "raw_payload": {
+    "cinematic_image_prompt": "Cinematic wide shot, 35mm lens, Gujarati mansion courtyard with intricate wooden pillars and stone flooring. Afternoon golden hour lighting casting long, dramatic shadows. Lakhā, a man with a furious expression, stands over a loyal dog wearing a letter tied around its neck. The atmosphere is thick with tension, dust motes dancing in the light. Onlookers in the background with expressions of horror and shock. Photorealistic, 8k, IMAX film texture, chiaroscuro lighting, high contrast, rich textures of aged wood and stone.",
+    "cinematic_video_prompt": "Slow dolly-in tracking shot starting from a low angle. Lakhā bursts into the frame with aggressive kinetic energy, his eyes blazing with rage. He grabs a sturdy wooden stick and swings it downward toward the dog. The camera captures the sudden, violent impact, then pans quickly to the shocked faces of onlookers. Environmental motion includes swirling dust in the courtyard and the stillness of the afternoon air suddenly broken by the movement. High-speed capture, fluid motion, cinematic depth of field."
+  }
+}

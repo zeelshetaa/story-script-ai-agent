@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:52.553Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 4/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 2923,
+  "raw_payload": {
+    "narration": "Across fields, Max sprints with the vigor of a wolf, his paws a blur against the grass. He darts for every tossed stick, returning each with a wag that speaks of joy. As dusk settles, he stands beside his keeper, a guardian. In the final frame, Max sits upright, his eyes alight with unwavering loyalty and strength.",
+    "dialogue_performances": []
+  }
+}

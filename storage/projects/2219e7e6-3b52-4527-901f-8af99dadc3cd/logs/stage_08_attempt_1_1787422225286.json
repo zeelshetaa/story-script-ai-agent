@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-22T18:10:13.342Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 6/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 11944,
+  "raw_payload": {
+    "cinematic_image_prompt": "Ultra‑realistic 35mm anamorphic shot of a pressurized airlock at night, leading into a vast ancient precursor vault. Dim, cold blue bioluminescent panels line the corridor, with volumetric light shafts and a thin atmospheric haze. In the center, a flickering translucent hologram of a younger Elena trembles, casting a soft teal glow. The future Elena, in a functional suit, stands with her hand outstretched, fingers passing through the holographic light, her face a mix of shock and resolve. Chiaroscuro lighting creates deep shadows and sharp highlights, emphasizing tension. Rendered in 8K resolution with IMAX‑style film grain and a cool‑blue‑teal color palette.",
+    "cinematic_video_prompt": "A slow dolly‑in tracking shot from the far end of the airlock toward Elena, then a low‑angle tilt up as she reaches toward the trembling hologram of her younger self. The camera follows her hand as it passes through the flickering teal light, while subtle dust particles swirl in the volumetric night haze. The hologram pulses gently, and the distant AI voice echo adds an audible low hum. Dynamic motion includes a slight push‑in on the hologram, a gentle crane rise revealing the vaulted precursor architecture, and a faint wind‑like ripple across the panel lights. Shot with a 50mm anamorphic lens, chiaroscuro lighting, and rendered at 8K with IMAX film texture."
+  }
+}

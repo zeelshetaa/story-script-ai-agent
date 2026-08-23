@@ -1,0 +1,6 @@
+{
+  "name": "Story to Video Script AI Engine",
+  "description": "Multi-stage AI pipeline transforming raw stories across languages into production-ready video scripts with scene breakdown, locked ground truth, character profiles, image prompts, and video directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -6,7 +6,7 @@ def run_stage11_fidelity(project: Project) -> Project:
     sot = project.source_of_truth
     if not sot:
         raise ValueError("Source of Truth missing before Stage 11")
-
+f"[SCENE {idx + 1}] ID: {s.id} | EventID: {s.event_id}\n"
     fidelity_issues: List[FidelityIssue] = []
 
     # 1. Code Check: Verify 1-to-1 event mapping
@@ -42,7 +42,7 @@ def run_stage11_fidelity(project: Project) -> Project:
             f"Title: {s.scene_title}\n"
             f"Action: {s.what_happens}\n"
             f"Narration: {s.narration}\n"
-            f"Dialogue: {' | '.join([f'{d.speaker}: \"{d.text}\"' for d in s.dialogue]) or 'None'}\n"
+            f"Dialogue: {' | '.join([d.speaker + ': \"' + d.text + '\"' for d in s.dialogue]) or 'None'}\n"
             f"Image Prompt: {s.image_prompt}"
             for idx, s in enumerate(project.scenes)
         ]

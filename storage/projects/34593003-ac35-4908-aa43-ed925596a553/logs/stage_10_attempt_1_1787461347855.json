@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-23T05:02:26.507Z",
+  "stage": 10,
+  "stage_name": "Translation to English (Scene 8/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1347,
+  "raw_payload": {
+    "scene_title": "Shocking Revelation",
+    "what_happens": "Lakhā kneels, tears welling up as he unties the letter from the dog's collar. He reads the Sheth's confession—an explanation of the theft and a promise to repay. The truth crashes over him like a wave; his legs give way and he collapses onto the marble floor, stunned and humbled.",
+    "narration": "Lakhā kneels, tears swelling as he unties the letter from the dog's neck, reading the Sheth's confession of theft and promise of repayment. The truth crashes over him; his legs give way, collapsing onto marble, humbled.",
+    "dialogue": []
+  }
+}

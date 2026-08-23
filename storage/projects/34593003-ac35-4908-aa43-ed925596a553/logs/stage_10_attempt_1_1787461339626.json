@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-08-23T05:02:17.850Z",
+  "stage": 10,
+  "stage_name": "Translation to English (Scene 2/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1776,
+  "raw_payload": {
+    "scene_title": "Sheth Queries the Collateral",
+    "what_happens": "In a richly paneled study, the Sheth leans back in his carved chair, his eyes narrowing as he asks Lakhā what he can offer as security, his voice calm but probing. Morning light streams through latticed windows, highlighting the tension.",
+    "narration": "Morning light slices through the latticed panes, casting amber bars across the study as the Sheth reclines, his gaze narrowing. He probes Lakhā, demanding the security he can offer, and the air thickens with tension.",
+    "dialogue": [
+      {
+        "speaker": "શેઠ",
+        "text": "Lakhā, what do you have that can be used as collateral?",
+        "emotion": "calm yet probing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-22T18:08:50.624Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 3/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 2116,
+  "raw_payload": {
+    "narration": "The deck shudders as Elena's wrist comm‑link glows, sending a pulse through the ship. Lights flicker, consoles flare, and the crew snaps to attention, their steps syncing with the rising hum that builds toward launch in a triumphant surge as destiny beckons.",
+    "dialogue_performances": [
+      {
+        "speaker": "Elena Vance (future)",
+        "text": "All personnel, prepare the scout vessel Chimera for immediate launch. We investigate the distress origin.",
+        "emotion": "authoritative and urgent"
+      }
+    ]
+  }
+}

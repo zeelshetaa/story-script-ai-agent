@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:50.848Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 3/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1704,
+  "raw_payload": {
+    "narration": "The three brothers step into the sunlit living room, cradling the trembling puppy they have named Max. They set a bowl of fresh water on the floor, and gently pat his head, whispering his name. Max laps eagerly, his eyes bright with relief. Soon he curls onto the soft rug, the warm light bathing him in a golden glow, as the brothers watch, their hearts swelling with quiet joy.",
+    "dialogue_performances": []
+  }
+}

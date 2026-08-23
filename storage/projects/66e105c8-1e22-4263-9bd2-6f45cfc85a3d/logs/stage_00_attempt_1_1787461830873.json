@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-08-23T05:10:26.474Z",
+  "stage": 0,
+  "stage_name": "Ground Truth Extraction (Section 1/1)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 4399,
+  "raw_payload": {
+    "characters": [
+      {
+        "id": "char_1",
+        "name": "હું",
+        "age": "unknown",
+        "gender": "unknown",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "brother of મારો ભાઈ"
+        ]
+      },
+      {
+        "id": "char_2",
+        "name": "મારો ભાઈ",
+        "age": "unknown",
+        "gender": "male",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "brother of હું"
+        ]
+      },
+      {
+        "id": "char_3",
+        "name": "મેક્સ",
+        "age": "unknown",
+        "gender": "animal",
+        "appearance": "",
+        "clothing": "",
+        "relationships": [
+          "pet of હું and મારો ભાઈ"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "id": "loc_1",
+        "name": "બગીચો",
+        "description": "Garden where the narrator and his brother walked"
+      },
+      {
+        "id": "loc_2",
+        "name": "ઘર",
+        "description": "Home where they brought the puppy"
+      }
+    ],
+    "events": [
+      {
+        "id": "sec_1_evt_1",
+        "order_index": 1,
+        "description": "Narrator and his brother went for a walk in the garden.",
+        "characters_involved": [
+          "હું",
+          "મારો ભાઈ"
+        ],
+        "location_id": "loc_1",
+        "time_of_day": "",
+        "emotion": "neutral"
+      },
+      {
+        "id": "sec_1_evt_2",
+        "order_index": 2,
+        "description": "They found a small black puppy in the garden.",
+        "characters_involved": [
+          "હું",
+          "મારો ભાઈ",
+          "મેક્સ"
+        ],
+        "location_id": "loc_1",
+        "time_of_day": "",
+        "emotion": "surprised"
+      },
+      {
+        "id": "sec_1_evt_3",
+        "order_index": 3,
+        "description": "They brought the puppy home, gave it water, and named it Max.",
+        "characters_involved": [
+          "હું",
+          "મારો ભાઈ",
+          "મેક્સ"
+        ],
+        "location_id": "loc_2",
+        "time_of_day": "",
+        "emotion": "caring"
+      },
+      {
+        "id": "sec_1_evt_4",
+        "order_index": 4,
+        "description": "Max grew into a big and loyal dog.",
+        "characters_involved": [
+          "મેક્સ"
+        ],
+        "location_id": "loc_2",
+        "time_of_day": "",
+        "emotion": "proud"
+      }
+    ],
+    "dialogue_lines": [],
+    "facts": [
+      "The narrator and his brother went for a walk in the garden.",
+      "They found a small black puppy.",
+      "They brought the puppy home.",
+      "They gave the puppy water.",
+      "They named the puppy Max.",
+      "Max later grew into a big and loyal dog."
+    ],
+    "ambiguities": []
+  }
+}

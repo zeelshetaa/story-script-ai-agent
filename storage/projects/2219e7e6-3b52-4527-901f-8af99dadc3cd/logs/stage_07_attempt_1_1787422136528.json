@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-22T18:08:55.394Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 5/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1134,
+  "raw_payload": {
+    "narration": "Through the humming airlock they stride, doors thudding shut behind them as the cavernous vault opens, stone arches swallowing sound. An ethereal AI intones, \"Identity confirmed…\", while helmets flare and ancient mechanisms stir.",
+    "dialogue_performances": []
+  }
+}

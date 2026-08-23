@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-08-23T05:10:35.611Z",
+  "stage": 4,
+  "stage_name": "Character Profile (મારો ભાઈ)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "status": "success",
+  "duration_ms": 912,
+  "raw_payload": {
+    "id": "char_2",
+    "role": "Loyal Companion",
+    "personality": "A quietly steadfast brother who balances protective instincts with a deep-seated fear of failure. He is motivated by a desire to shield his sibling from harm while secretly yearning for personal recognition. His internal conflict stems from a suppressed ambition that clashes with his self-imposed duty, leading to moments of frustration and self-doubt. Temperamentally, he is calm and level-headed, yet he harbors a sharp wit that surfaces in tense moments.",
+    "traits": [
+      "protective",
+      "stoic",
+      "witty",
+      "empathetic"
+    ],
+    "voice_style": "warm baritone with a measured cadence, punctuated by a subtle, reassuring laugh; he speaks with a calm authority that conveys both confidence and vulnerability",
+    "relationships": [
+      "Brother of હું – a bond forged through shared childhood hardships, characterized by mutual reliance and unspoken support; Mentor to a younger cousin, guiding them with patience and humor; Friend of a local shopkeeper, offering a listening ear and occasional advice; Rivalry with a distant uncle, stemming from past family disputes and differing values"
+    ]
+  }
+}

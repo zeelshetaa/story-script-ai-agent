@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:47.422Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 1/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1802,
+  "raw_payload": {
+    "narration": "The camera drifts along a sun‑dappled garden path, following two brothers as they walk side by side. Leaves rustle overhead, birds trill in the warm air, and each step crunches softly on the gravel. Their easy smiles and occasional chuckles ripple through the tranquil greenery, turning an ordinary stroll into a quiet celebration of brotherly bond and simple joy that lingers long after the sun sets.",
+    "dialogue_performances": []
+  }
+}

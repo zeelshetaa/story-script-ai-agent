@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:57.261Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 2/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "status": "success",
+  "duration_ms": 1369,
+  "raw_payload": {
+    "cinematic_image_prompt": "8k photorealistic cinematic image of a lush garden in late afternoon, golden hour volumetric lighting casting warm amber glow, a tiny black puppy curled behind a rose bush, its bright eyes illuminated, ears perking, the narrator and his brother kneeling beside it, smiling, standard clothing, 35mm lens perspective, subtle atmospheric haze, warm color palette of greens, golds, and black, IMAX film texture, mystical mood",
+    "cinematic_video_prompt": "Slow dolly in from garden path to the rose bush, tracking shot following the narrator and his brother as they kneel and coax the puppy, low-angle tilt to capture the puppy's bright eyes as it lifts its head, drone sweep overhead revealing the garden's lushness, dust motes drifting in golden light, wind rustling leaves, brothers' gestures gentle, puppy's tentative wag, mystical atmosphere"
+  }
+}

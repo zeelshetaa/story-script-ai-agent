@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:10:49.225Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 2/4)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1622,
+  "raw_payload": {
+    "narration": "As the brothers wander through the moonlit garden, a glimmer catches their eye—a tiny black puppy curled behind a rose bush. The camera draws close, revealing luminous eyes that flicker like distant stars. The pup lifts its head, ears perking, and a hesitant wag ripples through its tail. The brothers gasp, kneel, and whisper gentle encouragement, coaxing the creature forward. In that mystical moment, wonder blossoms, binding the brothers to the newfound companion.",
+    "dialogue_performances": []
+  }
+}

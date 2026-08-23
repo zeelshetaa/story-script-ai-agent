@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-08-23T05:01:45.797Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 7/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "status": "failed",
+  "error": "400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"max completion tokens reached before generating a valid document\"}}",
+  "duration_ms": 12619
+}

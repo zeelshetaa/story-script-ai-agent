@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-22T18:10:25.286Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 7/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 12443,
+  "raw_payload": {
+    "cinematic_image_prompt": "Photorealistic 8K IMAX frame captured with a 35mm anamorphic lens, night-time in a massive ancient precursor vault accessed through a pressurized airlock. The cavernous stone chamber is illuminated by cold, volumetric moonlight filtering through distant vents, casting deep chiaroscuro shadows. Cracks spider across the polished stone floor, swirling dust caught in shafts of light, creating a hazy atmospheric veil. In the foreground, Elena Vance and Aaron Kael are framed tightly, their faces lit by the faint glow of the AI console, eyes locked in a frantic glance. The scene is saturated in muted blues and steely grays with subtle amber highlights from the dust, conveying a suspenseful, high‑stakes mood.",
+    "cinematic_video_prompt": "Slow dolly‑in on Elena and Aaron's faces as they exchange a frantic glance, followed by a low‑angle tilt upward to reveal the vault's towering stone arches. The camera tracks a sweeping drone shot across the floor, following the spider‑like cracks as they expand, while volumetric dust particles drift in the air. Elena leans forward, eyes wide, breath shallow; Aaron mirrors the motion, hand gripping the rail. Seismic dampers clank and vibrate, causing subtle camera shake that syncs with the AI voice echoing, \"Critical failure. Immediate retreat or signal unlock required.\" The lighting shifts with dynamic chiaroscuro, emphasizing the tension, and the motion continues with a smooth tracking pull‑back to capture the full scale of the failing vault."
+  }
+}

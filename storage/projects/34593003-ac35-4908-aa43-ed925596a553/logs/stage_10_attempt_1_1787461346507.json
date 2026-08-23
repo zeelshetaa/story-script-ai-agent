@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-23T05:02:25.041Z",
+  "stage": 10,
+  "stage_name": "Translation to English (Scene 7/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1466,
+  "raw_payload": {
+    "scene_title": "Lakhā's Rage",
+    "what_happens": "Lakhā bursts into the courtyard, eyes blazing, assuming the dog has fled. In a fit of fury, he seizes a sturdy wooden stick and strikes the dog's head. The camera lingers on the stunned faces of the onlookers, the sound of the blow echoing through the still afternoon air.",
+    "narration": "Lakhā storms into the courtyard, eyes blazing, believing the dog has run away. In a flash of anger he grabs a wooden stick and smacks the animal's head, while the onlookers gasp in stunned silence.",
+    "dialogue": []
+  }
+}

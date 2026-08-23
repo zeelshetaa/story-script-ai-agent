@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-23T05:02:16.222Z",
+  "stage": 10,
+  "stage_name": "Translation to English (Scene 1/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1627,
+  "raw_payload": {
+    "scene_title": "Lakhā Pleads for a Loan",
+    "what_happens": "The camera tracks Lakhā, his eyes wide with desperation, as he walks across the expansive marble courtyard of the Sheth’s mansion. He lowers himself in a deep bow before the imposing patriarch, gripping a weather‑worn satchel. Distant temple bells ring in the background, amplifying his urgent plea for a loan to rescue his family.",
+    "narration": "Across the Sheth’s marble courtyard, Lakhā moves forward, his eyes wide with desperation, a satchel clutched in his hands. He bows deeply before the formidable patriarch, while the far‑off temple bells reverberate, echoing his desperate request for a lifeline to save his family.",
+    "dialogue": []
+  }
+}

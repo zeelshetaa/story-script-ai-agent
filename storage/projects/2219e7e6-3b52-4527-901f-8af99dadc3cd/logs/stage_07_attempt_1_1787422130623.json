@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-22T18:08:48.302Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 2/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 2321,
+  "raw_payload": {
+    "narration": "In the dim lab, Dr. Aaron Kael hovers over the quantum resonance scanner, his gloved fingers flicking switches as a soft blue pulse ripples across the readout, each beep tightening the room's breathless tension and foreboding silence.",
+    "dialogue_performances": [
+      {
+        "speaker": "Aaron Kael",
+        "text": "Elena, the gravitational wave isn't random, it's an engineered distress beacon from the uncharted orbital relay.",
+        "emotion": "tense"
+      }
+    ]
+  }
+}

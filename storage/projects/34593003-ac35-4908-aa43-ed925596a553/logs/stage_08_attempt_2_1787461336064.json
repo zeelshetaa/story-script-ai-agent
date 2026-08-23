@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-23T05:02:14.254Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 8/8)",
+  "attempt": 2,
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "status": "success",
+  "duration_ms": 1810,
+  "raw_payload": {
+    "cinematic_image_prompt": "A cinematic wide shot of a grand Gujarati mansion interior with intricate marble floors and traditional carved wooden pillars. Afternoon sunlight streams through ornate archways, creating dramatic volumetric lighting and soft dust motes in the air. In the center, Lakhā is captured in a moment of profound emotional collapse, kneeling on the cool marble, his hands trembling as he holds a small letter untied from a dog's neck. His expression is one of overwhelming shock and grief. Photorealistic, 8k resolution, shot on 35mm lens, shallow depth of field, rich textures, warm golden hour color palette, IMAX film grain.",
+    "cinematic_video_prompt": "Slow, steady dolly-in towards Lakhā as he kneels on the marble floor. The camera captures the subtle kinetic movement of his hands shaking while untying the letter. As he reads the text, his posture visibly breaks, his legs buckle, and he slowly collapses downward into a humbled, stunned position. In the background, the dog stands patiently. The atmosphere is heavy with grief, with slow-moving dust particles dancing in the shafts of afternoon light. Cinematic motion, fluid camera work, high-end film aesthetic."
+  }
+}

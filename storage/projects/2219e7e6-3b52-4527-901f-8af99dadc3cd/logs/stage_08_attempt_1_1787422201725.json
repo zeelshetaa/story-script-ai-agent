@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-22T18:09:41.755Z",
+  "stage": 8,
+  "stage_name": "Image & Video Prompts (Scene 4/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 19969,
+  "raw_payload": {
+    "cinematic_image_prompt": "Cinematic photorealistic 8K image captured with a 50mm anamorphic lens, night scene on a dead moon's ionized atmosphere. Elena Vance and Aaron Kael, clad in ion‑resistant gear, breach a hull and plunge into swirling ionized mist. Lightning‑like particles crackle around them, casting electric blue glints. Rusted metallic spires of an ancient precursor installation rise from frozen basalt plains, their jagged shadows stretching across the terrain. Volumetric lighting from the ionized particles creates a chiaroscuro effect, with a cold blue‑purple palette and subtle amber highlights from the crackling particles. IMAX film texture, atmospheric haze, high contrast, suspenseful mood.",
+    "cinematic_video_prompt": "Dynamic cinematic video in 8K: start with a slow dolly‑in on the hull breach as Elena Vance and Aaron Kael in ion‑resistant gear step into the ionized atmosphere of the dead moon. The camera tracks forward, low‑angle tilt upward to reveal rusted metallic spires looming over frozen basalt plains. As they plunge, a tracking shot follows their movement, capturing breath hissing in the thin air and lightning‑like particles crackling around them. Ambient mist swirls, fine dust drifts, and volumetric light rays pulse through the ionized particles. A drone sweep circles the spires, emphasizing long jagged shadows. The sequence maintains a suspenseful tempo with tight framing and subtle motion blur."
+  }
+}

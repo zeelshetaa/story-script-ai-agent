@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-23T05:02:21.060Z",
+  "stage": 10,
+  "stage_name": "Translation to English (Scene 4/8)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 1316,
+  "raw_payload": {
+    "scene_title": "Midnight Heist",
+    "what_happens": "Under a moonless sky, shadowy figures slip through a side window of the mansion. Silenced doors creak as they move like wraiths, gathering chests of gold and silver. The only sound is the soft rustle of silk and the distant hoot of an owl, emphasizing the danger of the night.",
+    "narration": "Under a moonless sky, shadowy figures slip through a side window, their steps echoing like wraiths as they gather chests of gold and silver, while silk rustles and an owl hoots in the distance.",
+    "dialogue": []
+  }
+}

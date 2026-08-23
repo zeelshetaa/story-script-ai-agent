@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-22T18:08:56.529Z",
+  "stage": 7,
+  "stage_name": "Narration & Dialogue (Scene 6/7)",
+  "attempt": 1,
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "status": "success",
+  "duration_ms": 12688,
+  "raw_payload": {
+    "narration": "Before her, a flickering hologram of Elena's younger self shivers into existence, translucent and trembling. The older Elena's urgent warning echoes, while future Elena reaches out, hand passing through light, her eyes hardening in the moment still.",
+    "dialogue_performances": [
+      {
+        "speaker": "Elena Vance (future)",
+        "text": "Do not trigger the containment sequence. It is not an engine; it is a cage.",
+        "emotion": "urgent"
+      }
+    ]
+  }
+}
